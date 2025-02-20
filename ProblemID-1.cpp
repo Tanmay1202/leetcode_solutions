@@ -1,21 +1,13 @@
 class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) 
-    {
-        int s = nums.size();
-        vector<int>arr(2);
-        for(int i=0; i<s; i++)
+    public:
+        bool isAnagram(string s, string t)
         {
-            for(int j=i+1; j<s; j++)
-            {
-                if(nums[i]+nums[j]==target)
-                {
-                    arr[0] = i;
-                    arr[1] = j;
-                    return arr;
-                }
-            }
+            if(s.length() != t.length())
+            return false;
+    
+            sort(s.begin(), s.end());
+            sort(t.begin(), t.end());
+    
+            return s==t;
         }
-        return arr;
-    }
-};
+    };
