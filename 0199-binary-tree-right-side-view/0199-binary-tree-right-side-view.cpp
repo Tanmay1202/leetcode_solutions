@@ -29,7 +29,7 @@ public:
             int levelSize = q.size();
 
             for(int i=0; i<levelSize; i++)
-            {
+{
                 TreeNode* curr = q.front();
                 q.pop();
 
