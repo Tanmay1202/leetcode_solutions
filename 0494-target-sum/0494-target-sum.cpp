@@ -1,25 +1,33 @@
 class Solution {
-private:
-    void backtrack(vector<int>& nums, int target, int &count, int sum, int i)
+public:
+    int findTargetSumWays(vector<int>& nums, int target) 
     {
-        if(i == nums.size())
-        {
-            if(target == sum)
-            count++;
+        int totalSum = accumulate(nums.begin(), nums.end(), 0);
 
-            return;
+        if ((totalSum + target) % 2 != 0 || totalSum < abs(target))
+        return 0;
+
+        int S1 = (totalSum + target) / 2;
+        int n = nums.size();
+
+        vector<vector<int>> dp(n+1, vector<int>(S1+1, 0));
+
+        for(int i=0; i<=n; i++)
+        {
+            dp[i][0] = 1;
         }
 
-        backtrack(nums, target, count, sum+nums[i], i+1);
-        backtrack(nums, target, count, sum-nums[i], i+1);
-    }
-public:
-    int findTargetSumWays(vector<int>& nums, int target)
-    {
-        int count = 0;
-        
-        backtrack(nums, target, count, 0, 0);
+        for(int i=1; i<=n; i++)
+        {
+            for(int j=0; j<=S1; j++)
+            {
+                if(j < nums[i-1])
+                dp[i][j] = dp[i-1][j];
+                else
+                dp[i][j] = dp[i-1][j] + dp[i-1][j - nums[i-1]];
+            }
+        }
 
-        return count;
+        return dp[n][S1];
     }
 };
