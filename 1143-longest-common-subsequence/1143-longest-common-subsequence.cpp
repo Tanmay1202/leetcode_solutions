@@ -3,12 +3,11 @@ public:
     int longestCommonSubsequence(string text1, string text2) 
     {
         if(text1.empty() || text2.empty())
-        return 0; 
-        
+        return 0;
+
         int n = text1.size();
         int m = text2.size();
-
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
 
         for(int i=1; i<=n; i++)
         {
@@ -22,6 +21,5 @@ public:
         }
 
         return dp[n][m];
-
     }
 };
