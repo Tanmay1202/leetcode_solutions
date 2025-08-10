@@ -1,21 +1,21 @@
 class Solution {
-private:
-    void backtrack(vector<int>& nums, int &ans, int start, int prod)
-    {
-        for(int i=start; i<nums.size(); i++)
-        {
-            prod *= nums[i];
-            ans = max(prod, ans);
-            backtrack(nums, ans, i+1, prod);
-        }
-    }
-
 public:
-    int maxProduct(vector<int>& nums) {
-        int ans = nums[0];
+    int maxProduct(vector<int>& nums) 
+    {
+        int n = nums.size();
 
-        backtrack(nums, ans, 0, 1);
+        vector<int> maxDp(n);
+        vector<int> minDp(n);
 
-        return ans;
+        maxDp[0] = minDp[0] = nums[0];
+
+        for(int i=1; i<n; i++)
+        {
+            maxDp[i] = max(nums[i], max(maxDp[i-1]*nums[i], minDp[i-1]*nums[i]));
+            minDp[i] = min(nums[i], min(maxDp[i-1]*nums[i], minDp[i-1]*nums[i]));
+        }
+
+
+        return *max_element(maxDp.begin(), maxDp.end());
     }
 };
