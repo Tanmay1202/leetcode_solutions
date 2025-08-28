@@ -2,14 +2,13 @@ class Solution {
 private:
     bool possible(vector<int>& piles, int h, int mid)
     {
-        int hours = 0;
-        
+        int count = 0;
         for(int i=0; i<piles.size(); i++)
         {
-            hours += ceil((double)piles[i]/mid);
+            count += ceil((double)piles[i]/mid);
         }
 
-        return hours<=h;
+        return count <= h;
     }
 public:
     int minEatingSpeed(vector<int>& piles, int h) 
@@ -20,14 +19,13 @@ public:
         while(low < high)
         {
             int mid = low + (high - low)/2;
-
             if(possible(piles, h, mid))
             {
                 high = mid;
             }
             else
             {
-                low = mid+1;
+                low = mid + 1;
             }
         }
 
