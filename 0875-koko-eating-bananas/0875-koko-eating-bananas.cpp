@@ -2,7 +2,7 @@ class Solution {
 private:
     bool possible(vector<int>&piles, int h, int mid)
     {
-        int hours = 0;
+        long hours = 0;
 
         for(int i=0; i<piles.size(); i++)
         {
@@ -17,12 +17,12 @@ public:
         int low = 1;
         int high = *max_element(piles.begin(), piles.end());
 
-        while(low < high)
+        while(low <= high)
         {
             int mid = low + (high - low)/2;
             if(possible(piles, h, mid))
             {
-                high = mid;
+                high = mid - 1;
             }
             else
             {
@@ -30,6 +30,6 @@ public:
             }
         }
 
-        return high;
+        return low;
     }
 };
