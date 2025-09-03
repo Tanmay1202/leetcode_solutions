@@ -1,43 +1,40 @@
 class Solution {
 public:
-    int numberOfPairs(vector<vector<int>>& points) {
-        int ans = 0;
+    int numberOfPairs(vector<vector<int>>& points) 
+    {
+        int count = 0;
         int n = points.size();
 
-        for (int i = 0; i < n; i++) {
-            auto& pointA = points[i];
-            for (int j = 0; j < n; j++) {
-                vector<int> pointB = points[j];
-                if (i == j ||
-                    !(pointA[0] <= pointB[0] && pointA[1] >= pointB[1])) {
-                    continue;
-                }
-                if (n == 2) {
-                    ans++;
-                    continue;
-                }
+        for(int i = 0; i < n; i++)
+        {
+            for(int j = 0; j < n; j++)
+            {
+                if(i == j) continue;
 
-                bool illegal = false;
-                for (int k = 0; k < n; k++) {
-                    if (k == i || k == j) {
-                        continue;
+                // Condition 1: i is upper-left of j
+                if(points[i][0] <= points[j][0] && points[i][1] >= points[j][1] &&
+                   !(points[i][0] == points[j][0] && points[i][1] == points[j][1]))
+                {
+                    bool valid = true;
+
+                    // Check all other points for rectangle condition
+                    for(int k = 0; k < n; k++)
+                    {
+                        if(k == i || k == j) continue;
+
+                        if(points[i][0] <= points[k][0] && points[k][0] <= points[j][0] &&
+                           points[j][1] <= points[k][1] && points[k][1] <= points[i][1])
+                        {
+                            valid = false;
+                            break;
+                        }
                     }
 
-                    auto& pointTmp = points[k];
-                    bool isXContained =
-                        pointTmp[0] >= pointA[0] && pointTmp[0] <= pointB[0];
-                    bool isYContained =
-                        pointTmp[1] <= pointA[1] && pointTmp[1] >= pointB[1];
-                    if (isXContained && isYContained) {
-                        illegal = true;
-                        break;
-                    }
-                }
-                if (!illegal) {
-                    ans++;
+                    if(valid) count++;
                 }
             }
         }
-        return ans;
+
+        return count;
     }
 };
