@@ -5,36 +5,32 @@ private:
         int bouqets = 0;
         int flowers = 0;
 
-
         for(int i=0; i<bloomDay.size(); i++)
         {
             if(bloomDay[i] <= mid)
             {
                 flowers++;
-
                 if(flowers == k)
                 {
                     bouqets++;
                     flowers = 0;
                 }
             }
-            else
-            {
+            else{
                 flowers = 0;
             }
-
         }
 
 
         return bouqets >= m;
     }
 public:
-    int minDays(vector<int>& bloomDay, int m, int k) 
+    int minDays(vector<int>& bloomDay, int m, int k)
     {
+        if((long long)m*k > bloomDay.size())  return -1;
+
         int low = 1;
         int high = *max_element(bloomDay.begin(), bloomDay.end());
-
-        if ((long long)k * m > bloomDay.size()) return -1;
 
         while(low < high)
         {
@@ -50,6 +46,8 @@ public:
             }
         }
 
-        return high;
+
+        return low;
+
     }
 };
