@@ -2,21 +2,14 @@ class Solution {
 public:
     int maxDistinctElements(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
-        unordered_map<long long, long long> nextFree;
-        
-        function<long long(long long)> find = [&](long long v) -> long long {
-            if(nextFree.find(v) == nextFree.end()) return v;
-            return nextFree[v] = find(nextFree[v]);
-        };
-        
-        int count = 0;
-        for(long long x : nums) {
-            long long val = find(x - k);
-            if(val <= x + k) {
-                nextFree[val] = find(val + 1);
-                count++;
+        int cnt = 0, prev = INT_MIN;
+        for (int num : nums) {
+            int curr = min(max(num - k, prev + 1), num + k);
+            if (curr > prev) {
+                cnt++;
+                prev = curr;
             }
         }
-        return count;
+        return cnt;
     }
 };
