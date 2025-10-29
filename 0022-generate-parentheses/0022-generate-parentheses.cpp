@@ -1,30 +1,26 @@
 class Solution {
 private:
-    void backtrack(vector<string> &ans, string temp, int n, int open, int close)
+    void backtrack(string temp, vector<string>& res, int open, int close,int n)
     {
-        if(temp.size() == 2*n)
+        if(temp.size() == n*2)
         {
-            ans.push_back(temp);
+            res.push_back(temp);
             return;
         }
 
-        if(open < n)
-        {
-            backtrack(ans, temp + '(', n, open+1, close);
-        }
+        if(open<n)
+        backtrack(temp+'(', res, open+1, close, n);
 
         if(close < open)
-        {
-            backtrack(ans, temp+')', n, open, close+1);
-        }
+        backtrack(temp+')',res, open, close+1, n);
     }
 public:
-    vector<string> generateParenthesis(int n) 
-    {
-        vector<string> ans;
+    vector<string> generateParenthesis(int n) {
+        string temp = "";
+        vector<string> res;
 
-        backtrack(ans, "", n, 0, 0);
+        backtrack(temp, res, 0, 0, n);
 
-        return ans;
+        return res;
     }
 };
