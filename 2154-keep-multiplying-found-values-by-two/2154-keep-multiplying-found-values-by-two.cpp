@@ -1,14 +1,17 @@
 class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
-        set<int> mySet(nums.begin(), nums.end());
-        int fin = original;
+        int n = nums.size();
 
-        while(mySet.count(fin))
+        for(int i=0; i<n; i++)
         {
-            fin *= 2;
+            if(nums[i] == original)
+            {
+                original = original*2;
+                i= -1;
+            }
         }
 
-        return fin;
+        return original;
     }
 };
