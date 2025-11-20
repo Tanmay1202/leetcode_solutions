@@ -9,8 +9,6 @@ public:
                 return a[1] < b[1];
             });
 
-        int size = intervals[0].size();
-
         int p2 = intervals[0][1];
         int p1 = p2 - 1;
 
@@ -18,17 +16,23 @@ public:
         chosen.push_back(p2);
 
         for (int i = 1; i < intervals.size(); i++) {
+
+            // both inside
             if ((p1 >= intervals[i][0] && p1 <= intervals[i][1]) &&
                 (p2 >= intervals[i][0] && p2 <= intervals[i][1]))
                 continue;
-            else if (!(p1 >= intervals[i][0] && p1 <= intervals[i][1]) &&
-                     (p2 >= intervals[i][0] && p2 <= intervals[i][1])) {
+
+            // only p2 inside
+            if (! (p1 >= intervals[i][0] && p1 <= intervals[i][1]) &&
+                  (p2 >= intervals[i][0] && p2 <= intervals[i][1])) {
+
                 p1 = p2;
                 p2 = intervals[i][1];
                 chosen.push_back(p2);
                 continue;
             }
 
+            // none inside
             p2 = intervals[i][1];
             p1 = p2 - 1;
             chosen.push_back(p1);
