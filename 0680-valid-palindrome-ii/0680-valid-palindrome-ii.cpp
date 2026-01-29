@@ -1,35 +1,32 @@
 class Solution {
-public:
-    bool val(string s, int left, int high)
+private:
+    bool check(string &s, int left, int right)
     {
-        while(left < high)
+        while(left < right)
         {
-            if(s[left] != s[high]) return false;
-
-            left++;
-            high--;
-        }
-
-        return true;
-    }
-    bool validPalindrome(string s) {
-
-        int left = 0;
-        int right = s.size() - 1;
-
-        while(left <= right)
-        {
-
             if(s[left] != s[right])
-            {
-                return val(s, left+1, right) || val(s, left, right - 1);
-            }
+            return false;
 
             left++;
             right--;
         }
 
         return true;
-        
+    }
+public:
+    bool validPalindrome(string s) {
+        int l = 0;
+        int r = s.size() - 1;
+
+        while(l < r)
+        {
+            if(s[l] != s[r])
+            return check(s, l+1, r) || check(s, l, r-1);
+
+            l++;
+            r--;
+        }
+
+        return true;
     }
 };
