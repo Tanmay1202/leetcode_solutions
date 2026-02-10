@@ -1,66 +1,62 @@
 class Solution {
 public:
-    int orangesRotting(vector<vector<int>>& grid) 
-    {
+    int orangesRotting(vector<vector<int>>& grid) {
+        vector<int> dx = {-1, 1, 0, 0};
+        vector<int> dy = {0, 0, -1, 1};
+
         int n = grid.size();
         int m = grid[0].size();
-        
+
+        vector<vector<bool>> visited(n);
+        queue<pair<int, int>> q;
+        int count = 0;
         int fresh = 0;
 
-        queue<pair<int, int>> q;
-
-        for(int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) 
         {
-            for(int j = 0; j < m; j++)
+            for(int j=0; j<m; j++) 
             {
-                if(grid[i][j] == 1)
-                    fresh++;
-                else if(grid[i][j] == 2)
-                    q.push({i, j});
+                if(grid[i][j] == 2) 
+                q.push({i, j});
+                else if(grid[i][j] == 1)
+                fresh++;
             }
         }
 
-        if(fresh == 0)
-            return 0;
-
-        int min = 0;
-
-        vector<int> dx = {0, 0, 1, -1};
-        vector<int> dy = {1, -1, 0, 0};
+        if(fresh == 0) return 0;
 
         while(!q.empty())
         {
             int size = q.size();
-
-            for(int i = 0; i < size; i++)
+            for(int i=0; i<size; i++)
             {
-                pair<int, int> node = q.front();
+                pair<int, int> front = q.front();
                 q.pop();
 
-                int row = node.first;
-                int col = node.second;
+                int x = front.first;
+                int y = front.second;
 
-                for(int j = 0; j < 4; j++)
+                for(int i=0; i<4; i++)
                 {
-                    int x = row + dx[j];
-                    int y = col + dy[j];
-
-                    if(x >= 0 && y >= 0 && x < n && y < m && grid[x][y] == 1)
+                    int nx = x + dx[i];
+                    int ny = y + dy[i];
+                    if(nx>=0 && ny>=0 && nx<n && ny<m)
                     {
-                        q.push({x, y});
-                        grid[x][y] = 2;
-                        fresh--;
+                        
+                        if(grid[nx][ny] == 1)
+                        {
+                            fresh--;
+                            grid[nx][ny] = 2;
+                            q.push({nx, ny});
+                        }
                     }
                 }
             }
-
-            if(!q.empty())
-                min++;
+            if(!q.empty()) count++;
         }
 
-        if(fresh == 0)
-            return min;
-        
+        if(fresh == 0) return count;
+
         return -1;
     }
 };
