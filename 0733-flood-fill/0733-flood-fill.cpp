@@ -1,28 +1,46 @@
 class Solution {
-private:
-    void dfs(vector<vector<int>>& image, int i, int j, int newColor, int oldColor, int n, int m)
-    {
-        if(i<0 || j<0 || i==n || j==m || image[i][j] != oldColor || image[i][j] == newColor)
-        return;
-
-        image[i][j] = newColor;
-
-        dfs(image, i, j+1, newColor, oldColor, n, m);
-        dfs(image, i-1, j, newColor, oldColor, n, m);
-        dfs(image, i, j-1, newColor, oldColor, n, m);
-        dfs(image, i+1, j, newColor, oldColor, n, m);
-    }
 public:
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) 
-    {
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        queue<pair<int, int>> q;
+
         int n = image.size();
         int m = image[0].size();
 
-        int oldColor = image[sr][sc];
+        int original = image[sr][sc];
+        if (original == color) return image;
 
-        dfs(image, sr, sc, color, oldColor, n, m);
+        q.push({sr, sc});
+        image[sr][sc] = color;
+
+        vector<int> dx = {-1, 1, 0, 0};
+        vector<int> dy = {0, 0, -1, 1};
+
+        while(!q.empty())
+        {
+            int sz = q.size();
+
+            for(int i=0; i<sz; i++)
+            {
+                pair<int, int> front = q.front();
+                q.pop();
+                int x = front.first;
+                int y = front.second;
+
+                for(int i=0; i<4; i++)
+                {
+                    int nx = x + dx[i];
+                    int ny = y + dy[i];
+
+                    if(nx >= 0 && ny >= 0 && nx < n && ny < m && image[nx][ny] == original)
+                    {
+                        q.push({nx, ny});
+                        image[nx][ny] = color;
+                    }
+                }
+            }
+        }
+
 
         return image;
-
     }
 };
