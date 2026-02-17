@@ -13,8 +13,7 @@ class Solution {
 private:
     TreeNode* construct(vector<int>& nums, int l, int r)
     {
-        if(l>r)
-        return nullptr;
+        if(l > r) return NULL;
 
         int m = l + (r - l)/2;
 
@@ -24,12 +23,12 @@ private:
         root->right = construct(nums, m+1, r);
 
         return root;
-
     }
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         int n = nums.size();
-
+        TreeNode* root = NULL;
+        
         return construct(nums, 0, n-1);
     }
 };
