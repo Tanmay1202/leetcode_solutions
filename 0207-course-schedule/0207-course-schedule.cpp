@@ -1,41 +1,53 @@
 class Solution {
-private:
-    // returns false if cycle found
-    bool dfs(int node, vector<bool>& inPath, vector<bool>& visited, vector<int> adj[]) {
-        visited[node] = true;
-        inPath[node] = true;
-
-        for (int neigh : adj[node]) {
-            if (!visited[neigh]) {
-                if (!dfs(neigh, inPath, visited, adj))
-                    return false;
-            }
-            else if (inPath[neigh]) {
-                return false; // cycle
-            }
-        }
-
-        inPath[node] = false; // REQUIRED
-        return true;
-    }
-
 public:
     bool canFinish(int numCourses, vector<vector<int>>& pre) {
-        vector<int> adj[numCourses];
-        vector<bool> visited(numCourses, false);
-        vector<bool> inPath(numCourses, false);
+        vector<vector<int>> adj(numCourses);
+        int count = 0;
+        queue<int> q;
+        vector<int> inDegree(numCourses);
 
-        for (auto& p : pre) {
-            adj[p[1]].push_back(p[0]); // directed: b -> a
+
+        for(auto &it: pre)
+        {
+            adj[it[1]].push_back(it[0]);
         }
 
-        for (int i = 0; i < numCourses; i++) {
-            if (!visited[i]) {
-                if (!dfs(i, inPath, visited, adj))
-                    return false; // cycle exists
+
+        for(int i=0; i<numCourses; i++)
+        {
+            for(int j=0; j<adj[i].size(); j++)
+            {
+                inDegree[adj[i][j]]++;
             }
         }
 
-        return true; // no cycle
+        for(int i=0; i<numCourses; i++)
+        {
+            if(inDegree[i] == 0)
+            q.push(i);
+        }
+
+        while(!q.empty())
+        {
+            int node = q.front();
+            q.pop();
+
+            count++;
+
+            for(int i=0; i<adj[node].size(); i++)
+            {
+                inDegree[adj[node][i]]--;
+
+                if(inDegree[adj[node][i]] == 0)
+                q.push(adj[node][i]);
+            }
+        }
+
+
+        if(numCourses == count)
+        return true;
+
+
+        return false;
     }
 };
