@@ -1,41 +1,27 @@
 class Solution {
-private:
-    void dfs(vector<vector<char>> &grid, int i, int j, int n, int m)
-    {
-        if(i > n-1 || j > m-1 || i < 0 || j < 0 || grid[i][j] != '1')
-        return;
-
-        //visited[i][j] = true;
-        grid[i][j] = '0';
-
-        dfs(grid, i+1, j, n, m);
-        dfs(grid, i-1, j, n, m);
-        dfs(grid, i, j+1, n, m);
-        dfs(grid, i, j-1, n, m);
-    }
 public:
     int numIslands(vector<vector<char>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
-
-        int count = 0;
-
-        //vector<vector<bool>> visited(n, vector<bool>(m, false));
-
-        for(int i=0; i<n; i++)
-        {
-            for(int j=0; j<m; j++)
-            {
-                if(grid[i][j] == '1')
-                {
-                    count++;
-                    dfs( grid, i, j, n, m);
+        int r = grid.size(), c = grid[0].size();
+        int res = 0;
+        for(int i = 0; i<r; i++){
+            for(int j = 0; j<c; j++){
+                if(grid[i][j] == '1'){
+                    res+=bfs(grid, i, j, r, c);
                 }
             }
         }
+        return res;
+    }
 
-
-        return count;
+    int bfs(vector<vector<char>>& grid, int i, int j, int r, int c){
+        if(i<0 || i>=r) return 0;
+        if(j<0 || j>=c) return 0;
+        if(grid[i][j] == '0') return 0;
+        grid[i][j] = '0';
+        bfs(grid, i+1, j, r, c);
+        bfs(grid, i-1, j, r,c);
+        bfs(grid, i, j+1, r,c);
+        bfs(grid, i, j-1, r,c);
+        return 1;
     }
 };
-auto init = atexit([]() { ofstream("display_runtime.txt") << "0";});
