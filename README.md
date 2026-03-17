@@ -7,6 +7,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -24,6 +25,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -38,4 +40,12 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 <!---LeetCode Topics End-->
