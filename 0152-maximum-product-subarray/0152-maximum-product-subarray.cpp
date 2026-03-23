@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int maxProduct(vector<int>& nums) 
-    {
-        int ans = nums[0];
-        int prevMax = nums[0];
+    int maxProduct(vector<int>& nums) {
         int prevMin = nums[0];
+        int prevMax = nums[0];
+
+        int ans = nums[0];
 
         for(int i=1; i<nums.size(); i++)
         {
