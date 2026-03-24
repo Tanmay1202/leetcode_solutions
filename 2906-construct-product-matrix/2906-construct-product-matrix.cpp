@@ -5,6 +5,8 @@ public:
         int n = grid.size();
         int m = grid[0].size();
 
+        const int N = 12345;
+
         vector<vector<unsigned long long >> prefix(n, vector<unsigned long long >(m, 1));
         vector<vector<unsigned long long >> suffix(n, vector<unsigned long long >(m, 1));
 
@@ -23,7 +25,7 @@ public:
                     continue;
                 }
 
-                prefix[i][j] = (prevProd * prevNum) % 12345;
+                prefix[i][j] = (prevProd * prevNum) % N;
 
                 prevProd = prefix[i][j];
                 prevNum = grid[i][j];
@@ -40,7 +42,7 @@ public:
                     continue;
                 }
 
-                suffix[i][j] = (suffProd * suffNum) % 12345;
+                suffix[i][j] = (suffProd * suffNum) % N;
 
                 suffProd = suffix[i][j];
                 suffNum = grid[i][j];
@@ -52,8 +54,8 @@ public:
         {
             for(int j=0; j<m; j++)
             {
-                grid[i][j] = (prefix[i][j] * suffix[i][j]) % 12345;
-                // grid[i][j] %= 12345;
+                grid[i][j] = (prefix[i][j] * suffix[i][j]) % N;
+                // grid[i][j] %= N;
             }
         }
 
