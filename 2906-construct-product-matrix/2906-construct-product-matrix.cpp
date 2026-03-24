@@ -5,14 +5,14 @@ public:
         int n = grid.size();
         int m = grid[0].size();
 
-        vector<vector<long long>> prefix(n, vector<long long>(m, 1));
-        vector<vector<long long>> suffix(n, vector<long long>(m, 1));
+        vector<vector<unsigned long long >> prefix(n, vector<unsigned long long >(m, 1));
+        vector<vector<unsigned long long >> suffix(n, vector<unsigned long long >(m, 1));
 
-        long long prevProd = 1;
-        long long prevNum = grid[0][0];
+        unsigned long long  prevProd = 1;
+        unsigned long long  prevNum = grid[0][0];
 
-        long long suffProd = 1;
-        long long suffNum = grid[n-1][m-1];
+        unsigned long long  suffProd = 1;
+        unsigned long long  suffNum = grid[n-1][m-1];
 
         for(int i=0; i<n; i++)
         {
