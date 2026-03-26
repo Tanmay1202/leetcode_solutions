@@ -1,39 +1,45 @@
 class Solution {
 public:
     bool canPartitionGrid(vector<vector<int>>& grid) {
-        int m = grid.size();
-        int n = grid[0].size();
+        int n = grid.size();
+        int m = grid[0].size();
 
+        long long rowSum = 0;
         long long total = 0;
+        long long colSum = 0;
 
-        // total sum
-        for (auto &row : grid) {
-            for (auto &val : row) {
-                total += val;
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<m; j++)
+            {
+                total += grid[i][j];
             }
         }
 
-        // if odd → impossible
-        if (total % 2 != 0) return false;
+        if(total % 2 != 0) return false; 
 
-        long long target = total / 2;
-
-        // 🔹 check horizontal cut
-        long long curr = 0;
-        for (int i = 0; i < m - 1; i++) {  // m-1 because last row not allowed
-            for (int j = 0; j < n; j++) {
-                curr += grid[i][j];
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<m; j++)
+            {
+                rowSum += grid[i][j];
+                if(rowSum > total/2) break;
             }
-            if (curr == target) return true;
+
+            if(rowSum == total/2)
+            return true;
         }
 
-        // 🔹 check vertical cut
-        curr = 0;
-        for (int j = 0; j < n - 1; j++) {  // n-1 because last column not allowed
-            for (int i = 0; i < m; i++) {
-                curr += grid[i][j];
+        for(int j=0; j<m; j++)
+        {
+            for(int i=0; i<n; i++)
+            {
+                colSum += grid[i][j];
+                if(colSum > total/2)
+                return false;
             }
-            if (curr == target) return true;
+
+            if(colSum == total/2) return true;
         }
 
         return false;
