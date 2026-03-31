@@ -23,6 +23,7 @@ a testament to my conquests on leetcode.
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -30,6 +31,7 @@ a testament to my conquests on leetcode.
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -65,6 +67,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -109,6 +112,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
