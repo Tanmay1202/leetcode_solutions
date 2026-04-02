@@ -101,6 +101,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Enumeration
@@ -113,6 +114,7 @@ a testament to my conquests on leetcode.
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -124,6 +126,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
