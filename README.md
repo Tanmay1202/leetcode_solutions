@@ -25,6 +25,7 @@ a testament to my conquests on leetcode.
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -40,6 +41,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -58,6 +60,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -118,6 +121,7 @@ a testament to my conquests on leetcode.
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1514-path-with-maximum-probability/) | Medium |
