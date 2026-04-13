@@ -12,6 +12,7 @@ a testament to my conquests on leetcode.
 | [1514-path-with-maximum-probability](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1514-path-with-maximum-probability/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1848-minimum-distance-to-the-target-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2906-construct-product-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2906-construct-product-matrix/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
