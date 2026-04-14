@@ -1,54 +1,71 @@
 class Solution {
 public:
-    unordered_map<string, unordered_set<string>> graph;
-    unordered_map<string, string> emailToName;
-    unordered_set<string> visited;
-
-    void dfs(const string &email, vector<string>& component)
+    string find(string a,unordered_map<string, string> &parent)
     {
-        visited.insert(email);
-        component.push_back(email);
+        if(parent[a] == a)
+        return a;
 
-        for(auto &neighbour: graph[email])
+        return parent[a] = find(parent[a], parent);
+    }
+
+    void unite(string a, string b, unordered_map<string, string> &parent, unordered_map<string, int> &rank)
+    {
+        string ra = find(a, parent);
+        string rb = find(b, parent);
+
+        if(rank[ra] < rank[rb])
         {
-            if(!visited.count(neighbour))
-            {
-                dfs(neighbour, component);
-            }
+            parent[ra] = rb;
+        }
+        else if(rank[ra] > rank[rb])
+        {
+            parent[rb] = ra;
+        }
+        else
+        {
+            parent[ra] = rb;
+            rank[rb]++;
         }
     }
 
-    vector<vector<string>> accountsMerge(vector<vector<string>>& acc) 
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) 
     {
-        vector<vector<string>> ans;
-        //vector<string> visited;
+        unordered_map<string, string> parent;
+        unordered_map<string, int> rank;
+        unordered_map<string, string> emailToName;
+        unordered_map<string, vector<string>> groups;
 
-        int n = acc.size();
+        int n = accounts.size();
 
         for(int i=0; i<n; i++)
         {
-            string key = acc[i][0];
-            for(int j=1; j<acc[i].size(); j++)
+            string name = accounts[i][0];
+
+            for(int j=1; j<accounts[i].size(); j++)
             {
-                emailToName[acc[i][j]] = key;
-                graph[acc[i][j]].insert(acc[i][1]);
-                graph[acc[i][1]].insert(acc[i][j]);
+                emailToName[accounts[i][j]] = name;
+                parent[accounts[i][j]] = accounts[i][j];
+                unite(accounts[i][1], accounts[i][j], parent, rank);
             }
         }
 
-        for(auto & [email, name] : emailToName)
+
+        for(auto &[email, name]: emailToName)
         {
-            if(!visited.count(email))
-            {
-                vector<string> component;
-                dfs(email, component);
-                sort(component.begin(), component.end());
-                component.insert(component.begin(), name);
-                ans.push_back(component);
-            }
+            string root = find(email, parent);
+            groups[root].push_back(email);
         }
 
 
-        return ans;
+        vector<vector<string>> result;
+
+        for(auto& [root, emails]: groups)
+        {
+            sort(emails.begin(), emails.end());
+            emails.insert(emails.begin(), emailToName[root]);
+            result.push_back(emails);
+        }
+
+        return result;
     }
 };
