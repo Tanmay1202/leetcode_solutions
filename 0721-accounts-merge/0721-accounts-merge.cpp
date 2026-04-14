@@ -40,11 +40,13 @@ public:
         for(int i=0; i<n; i++)
         {
             string name = accounts[i][0];
+            //parent[accounts[i][1]] = accounts[i][1];  // initialize first email
 
             for(int j=1; j<accounts[i].size(); j++)
             {
                 emailToName[accounts[i][j]] = name;
-                parent[accounts[i][j]] = accounts[i][j];
+                if(parent.find(accounts[i][j]) == parent.end())
+                parent[accounts[i][j]] = accounts[i][j];  // only initialize if new
                 unite(accounts[i][1], accounts[i][j], parent, rank);
             }
         }
