@@ -9,6 +9,7 @@ a testament to my conquests on leetcode.
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
+| [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1514-path-with-maximum-probability/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -28,6 +29,7 @@ a testament to my conquests on leetcode.
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Breadth-First Search
@@ -39,6 +41,7 @@ a testament to my conquests on leetcode.
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Union-Find
@@ -46,12 +49,14 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
+| [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
