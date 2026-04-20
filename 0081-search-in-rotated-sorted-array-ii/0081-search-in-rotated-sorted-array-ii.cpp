@@ -14,10 +14,9 @@ public:
                 left++;
                 right--;
             }
-
-            if(nums[left] < nums[mid])
+            else if(nums[left] <= nums[mid])
             {
-                if(nums[left] >= target && nums[mid] > target)
+                if(nums[left] <= target && nums[mid] > target)
                 {
                     right = mid - 1;
                 }
