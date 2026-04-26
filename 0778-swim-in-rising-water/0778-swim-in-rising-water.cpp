@@ -21,14 +21,24 @@ public:
     
     int swimInWater(vector<vector<int>>& grid) {
         int n = grid.size();
-        for(int t=0; t<n*n; t++)
+        int l = 0;
+        int r = n*n - 1;
+
+        int ans = -1;
+
+        while(l <= r)
         {
+            int mid = l + (r - l)/2;
             vector<vector<bool>> visited(n, vector<bool>(n, false));
-            if(dfs(grid, visited, 0, 0, t, n))
-            return t;
+            if(dfs(grid, visited, 0, 0, mid, n))
+            {
+                r = mid - 1;
+                ans = mid;
+            }
+            else
+            l = mid + 1;
         }
 
-
-        return -1;
+        return ans;
     }
 };
