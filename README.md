@@ -40,6 +40,7 @@ a testament to my conquests on leetcode.
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
@@ -174,4 +175,12 @@ a testament to my conquests on leetcode.
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0162-find-peak-element/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 <!---LeetCode Topics End-->
