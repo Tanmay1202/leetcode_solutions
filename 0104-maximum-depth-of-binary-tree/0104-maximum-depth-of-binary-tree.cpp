@@ -10,35 +10,25 @@
  * };
  */
 class Solution {
-private:
-    void helper(TreeNode* root, int &ans, int h)
+public:
+    void traversal(TreeNode* root, int &ans, int count)
     {
         if(!root)
-        return;
-
-        h += 1;
-
-        if(!root->left && !root->right)
         {
-            ans = max(h, ans);
+            ans = max(ans, count);
             return;
         }
 
-        helper(root->left, ans, h);
-        helper(root->right, ans, h);
+        traversal(root->left, ans, count+1);
+        traversal(root->right, ans, count+1);
     }
-public:
-    int maxDepth(TreeNode* root) 
-    {
-        if(!root)
-        return 0;
 
-        if(!root->left && !root->right)
-        return 1;
-
+    int maxDepth(TreeNode* root) {
         int ans = 0;
 
-        helper(root, ans, 0);
+        if(!root) return 0;
+
+        traversal(root, ans, 0);
 
         return ans;
     }
