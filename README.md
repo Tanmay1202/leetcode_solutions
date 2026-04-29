@@ -30,6 +30,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
@@ -133,6 +134,7 @@ a testament to my conquests on leetcode.
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -184,10 +186,12 @@ a testament to my conquests on leetcode.
 | [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 <!---LeetCode Topics End-->
