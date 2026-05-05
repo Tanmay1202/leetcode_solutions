@@ -10,11 +10,10 @@
  * };
  */
 class Solution {
-private:
+public:
     TreeNode* first = NULL;
-    TreeNode* prev = NULL;
     TreeNode* second = NULL;
-    
+    TreeNode* prev = NULL;
     void inorder(TreeNode* root)
     {
         if(!root)
@@ -33,12 +32,10 @@ private:
         prev = root;
         inorder(root->right);
     }
-public:
-    void recoverTree(TreeNode* root) 
-    {
+    void recoverTree(TreeNode* root) {
         inorder(root);
 
         if(first && second)
-        swap(first->val , second->val);
+        swap(first->val, second->val);
     }
 };
