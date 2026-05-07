@@ -6,55 +6,52 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        vector<vector<int>> res;
-        map<pair<int, int>, vector<int>> mp;
-        queue<pair<TreeNode*, pair<int, int>>> q;
+        unordered_map<TreeNode*, pair<int, int>> mpp;
+        vector<vector<int>> result;
+        queue<TreeNode*> q;
+        map<int, vector<pair<int,int>>> pre;;
 
-        q.push({root, {0, 0}});
+        mpp[root] = {0, 0};
+        q.push(root);
 
-        while (!q.empty()) {
-            auto front = q.front();
+        while(!q.empty())
+        {
+            TreeNode* node = q.front(); q.pop();
+            auto [x , y] = mpp[node];
+            pre[y].push_back({x, node->val});
 
-            TreeNode* node = front.first;
-            int x = front.second.first;
-            int y = front.second.second;
-
-            q.pop();
-
-            mp[{y, x}].push_back(node->val);
-
-            if (node->left) {
-                q.push({node->left, {x + 1, y - 1}});
+            if(node->left)
+            {
+                mpp[node->left] = {x + 1, y - 1};
+                q.push(node->left);
             }
-
-            if (node->right) {
-                q.push({node->right, {x + 1, y + 1}});
+            if(node->right)
+            {
+                mpp[node->right] = {x + 1, y + 1};
+                q.push(node->right);
             }
-        }
+        }   
 
-        int prevCol = INT_MIN;
-
-        for (auto& it : mp) {
-            int col = it.first.first;
-
+        for(auto &it : pre)
+        {
             sort(it.second.begin(), it.second.end());
+            vector<int> temp;
 
-            if (col != prevCol) {
-                res.push_back({});
-                prevCol = col;
+            for(auto &at: it.second)
+            {
+                temp.push_back(at.second);
             }
 
-            res.back().insert(res.back().end(), it.second.begin(),
-                              it.second.end());
+            result.push_back(temp);
         }
 
-        return res;
+        return result;
+
     }
 };
