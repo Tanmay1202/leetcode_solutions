@@ -33,6 +33,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
@@ -50,6 +51,7 @@ a testament to my conquests on leetcode.
 | [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
@@ -196,6 +198,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -206,6 +209,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
