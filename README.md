@@ -41,6 +41,7 @@ a testament to my conquests on leetcode.
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -56,6 +57,7 @@ a testament to my conquests on leetcode.
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Union-Find
@@ -88,6 +90,7 @@ a testament to my conquests on leetcode.
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -112,6 +115,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0015-3sum/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
@@ -192,6 +196,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -201,6 +206,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
