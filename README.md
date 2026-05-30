@@ -196,6 +196,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0162-find-peak-element/) | Medium |
+| [0222-count-complete-tree-nodes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
@@ -208,6 +209,7 @@ a testament to my conquests on leetcode.
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0222-count-complete-tree-nodes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
@@ -223,6 +225,7 @@ a testament to my conquests on leetcode.
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0222-count-complete-tree-nodes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
@@ -231,4 +234,8 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0099-recover-binary-search-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0099-recover-binary-search-tree/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0222-count-complete-tree-nodes/) | Easy |
 <!---LeetCode Topics End-->
