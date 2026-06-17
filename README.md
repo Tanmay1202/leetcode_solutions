@@ -109,6 +109,7 @@ a testament to my conquests on leetcode.
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
+| [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -139,6 +140,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0015-3sum/) | Medium |
+| [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -148,6 +150,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
+| [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -238,4 +241,8 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0222-count-complete-tree-nodes/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
 <!---LeetCode Topics End-->
