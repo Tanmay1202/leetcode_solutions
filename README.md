@@ -17,6 +17,7 @@ a testament to my conquests on leetcode.
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1514-path-with-maximum-probability/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -101,6 +102,7 @@ a testament to my conquests on leetcode.
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -127,6 +129,7 @@ a testament to my conquests on leetcode.
 | [0015-3sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0015-3sum/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
