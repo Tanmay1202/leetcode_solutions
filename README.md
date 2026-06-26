@@ -100,6 +100,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
@@ -113,6 +114,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
@@ -259,6 +261,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
@@ -271,6 +274,7 @@ a testament to my conquests on leetcode.
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
