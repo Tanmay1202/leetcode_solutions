@@ -159,6 +159,7 @@ a testament to my conquests on leetcode.
 | ------- | ------- |
 | [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
+| [2523-closest-prime-numbers-in-range](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -295,4 +296,5 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
+| [2523-closest-prime-numbers-in-range](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 <!---LeetCode Topics End-->
