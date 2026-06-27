@@ -11,6 +11,7 @@ a testament to my conquests on leetcode.
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0162-find-peak-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0162-find-peak-element/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -156,6 +157,7 @@ a testament to my conquests on leetcode.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -174,6 +176,7 @@ a testament to my conquests on leetcode.
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -288,4 +291,8 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 <!---LeetCode Topics End-->
