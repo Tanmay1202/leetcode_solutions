@@ -15,6 +15,7 @@ a testament to my conquests on leetcode.
 | [0162-find-peak-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0162-find-peak-element/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
+| [0216-combination-sum-iii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0216-combination-sum-iii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -134,6 +135,7 @@ a testament to my conquests on leetcode.
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0216-combination-sum-iii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0216-combination-sum-iii/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
