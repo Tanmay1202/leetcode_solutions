@@ -118,6 +118,7 @@ a testament to my conquests on leetcode.
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
@@ -130,6 +131,7 @@ a testament to my conquests on leetcode.
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
@@ -178,6 +180,7 @@ a testament to my conquests on leetcode.
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
