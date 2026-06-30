@@ -108,6 +108,7 @@ a testament to my conquests on leetcode.
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
@@ -121,6 +122,7 @@ a testament to my conquests on leetcode.
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -270,6 +272,7 @@ a testament to my conquests on leetcode.
 | [0239-sliding-window-maximum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
