@@ -1,26 +1,25 @@
 class Solution {
-private:
-    void backtrack(string temp, vector<string>& res, int open, int close,int n)
+public:
+    void helper(int open, int close, vector<string> &ans, string temp,int n)
     {
         if(temp.size() == n*2)
         {
-            res.push_back(temp);
+            ans.push_back(temp);
             return;
         }
 
-        if(open<n)
-        backtrack(temp+'(', res, open+1, close, n);
+        if(open < n)
+        helper(open+1, close, ans, temp + '(', n);
 
         if(close < open)
-        backtrack(temp+')',res, open, close+1, n);
+        helper(open, close+1, ans, temp + ')', n);
     }
-public:
     vector<string> generateParenthesis(int n) {
+        vector<string> ans;
         string temp = "";
-        vector<string> res;
 
-        backtrack(temp, res, 0, 0, n);
+        helper(0, 0, ans, temp, n);
 
-        return res;
+        return ans;
     }
 };
