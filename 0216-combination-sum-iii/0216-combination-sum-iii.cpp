@@ -1,30 +1,26 @@
 class Solution {
-private:
-    void backtrack(int k, int n, vector<int> temp, vector<vector<int>>& result, int start, int sum)
+public:
+    void helper(int k, int n, vector<vector<int>> &ans, vector<int> temp, int sum, int start)
     {
-        if(temp.size() == k)
+        if(temp.size() == k && sum == n)
         {
-            if(sum == n) 
-            result.push_back(temp);
-            
-
+            ans.push_back(temp);
             return;
         }
 
         for(int i=start; i<=9; i++)
         {
             temp.push_back(i);
-            backtrack(k, n, temp, result, i+1, sum+i);
+            helper(k, n, ans, temp, sum + i, i+1);
             temp.pop_back();
         }
     }
-public:
     vector<vector<int>> combinationSum3(int k, int n) {
+        vector<vector<int>> ans;
         vector<int> temp;
-        vector<vector<int>> result;
 
-        backtrack(k, n, temp, result, 1, 0);
+        helper(k, n, ans, temp, 0, 1);
 
-        return result;
+        return ans;
     }
 };
