@@ -7,6 +7,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0015-3sum/) | Medium |
+| [0039-combination-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
@@ -127,6 +128,7 @@ a testament to my conquests on leetcode.
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0039-combination-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
 | [0093-restore-ip-addresses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
