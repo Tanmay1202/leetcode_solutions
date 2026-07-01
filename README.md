@@ -7,6 +7,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0015-3sum/) | Medium |
+| [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
@@ -89,6 +90,7 @@ a testament to my conquests on leetcode.
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
@@ -104,6 +106,7 @@ a testament to my conquests on leetcode.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
@@ -132,6 +135,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
