@@ -1,24 +1,25 @@
 class Solution {
-private:
-    void backtrack(vector<vector<string>> &result, vector<string> &board, unordered_set<int> column,unordered_set<int> diag1, unordered_set<int> diag2, int row, int n)
+public:
+    void helper(unordered_set<int> &column, unordered_set<int> &diag1,
+unordered_set<int> &diag2, vector<vector<string>> &res, vector<string> &board, int n, int row)
     {
         if(row == n)
         {
-            result.push_back(board);
+            res.push_back(board);
             return;
         }
 
-        for(int col = 0; col<n; col++)
+        for(int col = 0; col < n; col++)
         {
-            if(column.count(col) || diag1.count(row+col) || diag2.count(row - col))
+            if(diag2.count(row - col) || diag1.count(row + col) || column.count(col))
             continue;
 
             board[row][col] = 'Q';
             column.insert(col);
-            diag1.insert(row+col);
-            diag2.insert(row-col);
+            diag1.insert(row + col);
+            diag2.insert(row - col);
 
-            backtrack(result, board, column, diag1, diag2, row + 1, n);
+            helper(column, diag1, diag2, res, board, n, row + 1);
 
             board[row][col] = '.';
             column.erase(col);
@@ -26,17 +27,20 @@ private:
             diag2.erase(row - col);
         }
     }
-public:
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> result;
-        vector<string> board(n, string(n, '.'));
 
+
+
+    vector<vector<string>> solveNQueens(int n) {
         unordered_set<int> col;
         unordered_set<int> diag1;
         unordered_set<int> diag2;
 
-        backtrack(result, board, col, diag1, diag2, 0, n);
+        vector<vector<string>> res;
+        vector<string> board(n, string(n, '.'));
 
-        return result;
+
+        helper(col, diag1, diag2, res, board, n, 0);;
+
+        return res;
     }
 };
