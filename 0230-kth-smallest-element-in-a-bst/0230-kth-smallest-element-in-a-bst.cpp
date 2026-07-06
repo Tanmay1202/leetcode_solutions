@@ -10,33 +10,29 @@
  * };
  */
 class Solution {
-private:
-    TreeNode* first = NULL;
-    void inorder(TreeNode* root, int k, int &count, int &ans)
+public:
+    int count = 0;
+    int ans = -1;
+
+    void inorder(TreeNode* root, int k)
     {
-        if(!root || count >= k)
+        if(count > k || !root)
         return;
 
-        inorder(root->left, k, count, ans);
-
-
+        inorder(root->left, k);
         count++;
+
         if(count == k)
         {
-            ans =  root->val;
+            ans = root->val;
             return;
         }
 
-        
-
-        inorder(root->right, k, count, ans);
+        inorder(root->right, k);
     }
-public:
-    int kthSmallest(TreeNode* root, int k) 
-    {
-        int count = 0;
-        int ans = -1;
-        inorder(root, k , count, ans);
+
+    int kthSmallest(TreeNode* root, int k) {
+        inorder(root, k);
 
         return ans;
     }
