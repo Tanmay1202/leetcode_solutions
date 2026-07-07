@@ -59,6 +59,7 @@ a testament to my conquests on leetcode.
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -80,6 +81,7 @@ a testament to my conquests on leetcode.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,6 +91,7 @@ a testament to my conquests on leetcode.
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -209,6 +212,7 @@ a testament to my conquests on leetcode.
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1514-path-with-maximum-probability/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
