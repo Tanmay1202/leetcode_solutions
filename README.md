@@ -20,6 +20,7 @@ a testament to my conquests on leetcode.
 | [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [0216-combination-sum-iii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0216-combination-sum-iii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0463-island-perimeter](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0463-island-perimeter/) | Easy |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
@@ -49,6 +50,7 @@ a testament to my conquests on leetcode.
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0463-island-perimeter](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0463-island-perimeter/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
@@ -73,6 +75,7 @@ a testament to my conquests on leetcode.
 | [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0463-island-perimeter](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0463-island-perimeter/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0743-network-delay-time/) | Medium |
@@ -102,6 +105,7 @@ a testament to my conquests on leetcode.
 | [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
 | [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0463-island-perimeter](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0463-island-perimeter/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
