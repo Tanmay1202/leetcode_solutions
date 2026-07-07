@@ -13,6 +13,7 @@ a testament to my conquests on leetcode.
 | [0051-n-queens](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0078-subsets/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
+| [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0162-find-peak-element](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0162-find-peak-element/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
@@ -44,6 +45,7 @@ a testament to my conquests on leetcode.
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -68,6 +70,7 @@ a testament to my conquests on leetcode.
 | [0102-binary-tree-level-order-traversal](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0126-word-ladder-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0126-word-ladder-ii/) | Hard |
+| [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -85,6 +88,7 @@ a testament to my conquests on leetcode.
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -96,6 +100,7 @@ a testament to my conquests on leetcode.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0037-sudoku-solver/) | Hard |
+| [0130-surrounded-regions](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0827-making-a-large-island/) | Hard |
