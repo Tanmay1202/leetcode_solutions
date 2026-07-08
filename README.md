@@ -145,6 +145,7 @@ a testament to my conquests on leetcode.
 | [0844-backspace-string-compare](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tanmay1202/leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -179,6 +180,7 @@ a testament to my conquests on leetcode.
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -191,6 +193,7 @@ a testament to my conquests on leetcode.
 | [0204-count-primes](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0204-count-primes/) | Medium |
 | [0412-fizz-buzz](https://github.com/Tanmay1202/leetcode_solutions/tree/main/0412-fizz-buzz/) | Easy |
 | [2523-closest-prime-numbers-in-range](https://github.com/Tanmay1202/leetcode_solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Tanmay1202/leetcode_solutions/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
